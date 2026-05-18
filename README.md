@@ -52,7 +52,9 @@ Bộ tham số tốt nhất được tìm thấy qua GridSearch là: `{'model_C'
 | :--- | :---: | :---: | :---: | :---: |
 | Ở lại (No) | 0.84 | 0.90 | 0.87 | 1035 |
 | Rời đi (Yes) | 0.66 | 0.52 | 0.58 | 374 |
-| Toàn bộ (Accuracy) | | | 0.80 | 1409 |
+| Accuracy | | | 0.80 | 1409 |
+| macro avg | 0.75 | 0.71 | 0.73 | 1409 |
+| weighted avg | 0.79 | 0.80 | 0.79 | 1409 |
 
 *(Các chỉ số trên đều được trích xuất từ Classification Report của mô hình).*
 
